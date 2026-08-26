@@ -39,7 +39,7 @@ else:
         result = get_result(score)          
         st.subheader(f"Results for {student_name}")          
         st.metric(             
-             "Performance Score",             
+             f"Performance Score",             
              f"{score}%"         )          
         if result == "PASS":             
             st.success("PASS 🎉")         
